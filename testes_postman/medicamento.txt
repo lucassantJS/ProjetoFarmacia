@@ -1,0 +1,6 @@
+medicamento:
+{
+    "nome": "Paracetamol",
+    "descricao": "Analgésico e antipirético",
+    "preco": 12.34
+}

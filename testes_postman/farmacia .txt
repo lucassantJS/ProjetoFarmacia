@@ -1,0 +1,6 @@
+farmacia: 
+{
+    "nome": "Farmácia Exemplo",
+    "endereco": "Avenida Exemplo, 456",
+    "telefone": "(43) 88888-8888"
+}

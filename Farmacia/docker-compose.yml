@@ -1,0 +1,27 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: trab_anderson
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    ports:
+      - "3306:3306"
+    networks:
+      - mynetwork
+
+  app:
+    build:
+      context: .
+    depends_on:
+      - mysql
+    ports:
+      - "8081:8081"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge

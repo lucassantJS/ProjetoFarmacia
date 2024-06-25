@@ -1,0 +1,8 @@
+clientes:
+
+{
+    "nome": "João da Silva",
+    "cpf": "123.456.789-00",
+    "endereco": "Rua Exemplo, 123",
+    "telefone": "(43) 99999-9999"
+}
