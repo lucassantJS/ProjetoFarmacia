@@ -32,7 +32,7 @@ public class MedicoService {
 
     public MedicoModel update(Long id, MedicoModel medico) {
         if (medicoRepository.existsById(id)) {
-            medico.setIdMedico(id);
+            medico.setId(id);
             return medicoRepository.save(medico);
         } else {
             throw new RuntimeException("Medico não encontrado para o ID :: " + id);

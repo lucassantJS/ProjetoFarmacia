@@ -1,6 +1,0 @@
-medico:
-{
-    "nome": "Dra. Maria",
-    "crm": "123456",
-    "especialidade": "Clínico Geral"
-}
